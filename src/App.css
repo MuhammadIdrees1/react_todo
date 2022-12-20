@@ -123,6 +123,10 @@
   padding-left: 10px;
 }
 
+input:focus,
+button:focus {
+  outline: none;
+}
 
 @media (max-width: 500px) {
   .app-wrapper {
